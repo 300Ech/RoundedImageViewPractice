@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:padding="20dp"
+    app:cardCornerRadius="0dp">
+
+    <com.evertschavez.dogs.RoundedImageView
+        android:id="@+id/ivDog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background"
+        app:cornerRadius="@dimen/round_corner_radius"
+        app:roundedCorners="topLeft|bottomRight" />
+
+</androidx.cardview.widget.CardView>
